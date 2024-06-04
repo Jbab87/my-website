@@ -1,0 +1,29 @@
+.navbar {
+  border: solid black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  
+ 
+}
+
+.title-container {
+  border: solid black;
+  width: 40000px;
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  border: solid black;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+li {
+  margin: 10px 100px;
+}
+
+
