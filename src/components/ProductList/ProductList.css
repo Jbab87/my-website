@@ -1,11 +1,43 @@
 .productlist-container {
   border: solid black;
-  display: flex;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  gap: 50px;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 500px;
-  padding: 10px;
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 20px;
   
 }
+
+
+.product-card {
+  border: solid black;
+  border-radius: 2%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  
+  
+}
+
+.product-image {
+  border-radius: 2%;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-image: url('../../assets/PXL_20240524_133656753.PORTRAIT.ORIGINAL.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
 

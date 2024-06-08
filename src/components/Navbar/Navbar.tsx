@@ -6,8 +6,9 @@ function Navbar() {
 
   return (
       <div className='navbar'>
+        <div className='navbar-contents'>
         <div className='title-container'> 
-        <h1 className='title'>Rent Cameras</h1>
+        <h1 className='title'>Rent4Cheap</h1>
         </div>
         <ul>
           <li>Home</li>
@@ -15,6 +16,7 @@ function Navbar() {
           <li>Blog</li>
           <li>About</li>
         </ul>
+        </div>
       </div>
     
   )
