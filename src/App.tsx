@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import ProductList from './components/ProductList/ProductList'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -20,11 +21,12 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>More to come!</h1>
       <div className="card">
     
-      
+       
       </div>
+      <Footer/>
       
     </>
   )

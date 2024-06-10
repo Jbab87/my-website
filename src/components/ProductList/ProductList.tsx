@@ -18,10 +18,12 @@ let x =  productList.map((product) => {
   })
 
   return (
-      <div className='productlist-container'>
+    <> 
+    <h1>Top deals found</h1>
+        <div className='productlist-container'>
           {x}
       </div>
-    
+      </>
   )
 }
 

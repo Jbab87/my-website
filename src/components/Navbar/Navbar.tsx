@@ -8,7 +8,7 @@ function Navbar() {
       <div className='navbar'>
         <div className='navbar-contents'>
         <div className='title-container'> 
-        <h1 className='title'>Rent4Cheap</h1>
+        <h2 className='title'>Rent4Cheap</h2>
         </div>
         <ul>
           <li>Home</li>
