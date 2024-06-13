@@ -1,39 +1,59 @@
 .navbar {
-  border: solid black;
   display: flex;
-  justify-content: center;
+  top: 0;
   width: 100%;
-  height: 170px;
+  height: 180px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   
- /* primary colour: #876ca8 
- secondary colour:#cdcfae
- primary colour: #8ab786
- */
 }
 
-.navbar-contents {
-  border: solid black;
+.navbar-container {
+  margin: auto;
   display: flex;
   width: 90%;
   align-items: center;
-  padding: 1rem;
+  padding: 0.8rem;
+  color: white;
 }
 
-.title-container {
-  border: solid black;
-  width: 360px;
-  margin: 10px;
+.navbar-logo-container {
+  width: 320px;
+  margin: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.navbar-logo{
+  color: white;
+}
+
+.navbar-logo:hover{
+  color: white;
 }
 
 ul {
   display: flex;
-  border: solid black;
   list-style-type: none;
   margin-left: auto;
+  color: white;
 }
 
-li {
+
+
+.list-item {
   margin: 10px 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px;
+  transition: color 0.3s;
 }
+
 
 
