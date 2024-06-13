@@ -11,7 +11,6 @@ function Navbar() {
         <h2 className='title'>Rent4Cheap</h2>
         </div>
         <ul>
-          <li>Home</li>
           <li>Products</li>
           <li>Blog</li>
           <li>About</li>
