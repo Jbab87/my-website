@@ -2,12 +2,12 @@
   border: solid black;
   margin: auto;
   display: grid;
-  grid-template-columns: 400px 400px 400px 400px 400px;
-  gap: 50px;
+  grid-template-columns: 300px 300px 300px ;
+  gap: 100px;
   align-items: center;
   justify-content: center;
   width: 90%; 
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   padding: 20px;
   
 }
@@ -16,7 +16,8 @@
 .product-card {
   border: solid black;
   border-radius: 2%;
-  height: 400px;
+  padding: 5px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,6 +39,11 @@
 
 }
 
-
-
+@media (max-width: 1200px)  {
+  .productlist-container {
+    grid-template-columns: 300px;
+    
+    
+}
+}
 

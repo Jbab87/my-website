@@ -2,6 +2,7 @@
 
 .about-container {
   border: solid black;
+  display: flex;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 50px;

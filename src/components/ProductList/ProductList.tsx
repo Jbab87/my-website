@@ -19,7 +19,7 @@ let x =  productList.map((product) => {
 
   return (
     <> 
-    <h1>Top deals found</h1>
+    <h2>Top deals found</h2>
         <div className='productlist-container'>
           {x}
           <h1>More to come!</h1>
