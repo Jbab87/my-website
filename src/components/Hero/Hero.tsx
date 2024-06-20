@@ -8,7 +8,10 @@ function Hero() {
   return (
       <div className='hero-container'>
         {/* <img className='image' src={camera}></img> */}
-        <h1>Welcome</h1>
+        <div className='hero-title-ctr'> 
+        <h1 className='hero-title'>Discover great deals by <i>Renting</i> instead of buying </h1>
+        <h2 className='hero-subtitle'>Get what you need just for the moment, and not a bit more</h2>
+        </div>
       </div>
     
   )

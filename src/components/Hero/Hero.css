@@ -1,5 +1,5 @@
 .hero-container {
-  border: solid gold;
+  border-bottom: solid #2ccbbb 6px;
   display: flex;
   /* background-image: url('../../assets/PXL_20240524_133656753.PORTRAIT.ORIGINAL.jpg');
   background-position: center;
@@ -7,11 +7,25 @@
   background-size: cover; */
   align-items: center;
   justify-content: center;
-  height: 100px;  
+  height: 400px;  
   margin-bottom: 20px;
 }
 
-.image {
-  object-fit: contain;
+.hero-title-ctr {
+  border: solid white;
+  width: 900px;
+  padding: 10px;
 }
+
+.hero-title {
+  color: white;
+  font-size: 60px;
+}
+
+.hero-subtitle {
+  color: white;
+  font-weight: 300;
+}
+
+
 
