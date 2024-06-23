@@ -1,18 +1,19 @@
 .hero-container {
   border-bottom: solid #2ccbbb 6px;
   display: flex;
+  flex-direction: column;
   /* background-image: url('../../assets/PXL_20240524_133656753.PORTRAIT.ORIGINAL.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
   align-items: center;
   justify-content: center;
-  height: 400px;  
+  height: 500px;  
   margin-bottom: 20px;
 }
 
 .hero-title-ctr {
-  border: solid white;
+  /* border: solid white; */
   width: 900px;
   padding: 10px;
 }
@@ -26,6 +27,26 @@
   color: white;
   font-weight: 300;
 }
+
+.btn-ctr {
+  margin-top: 10px;
+}
+
+.btn {
+  border: none;
+  display: flex;
+  background-color: #2ccbbb;
+  font-size: x-large;
+  font-weight: bold;
+  height: 60px;
+}
+
+.btn:hover {
+  background-color: #2ccbbb95;
+  transition: background-color 0.6s;
+}
+
+
 
 
 

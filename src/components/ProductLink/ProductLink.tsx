@@ -23,12 +23,20 @@ let x =  productList.map((product) => {
   })
 
   return (
-    <> 
-    <h2>Top deals found</h2>
-        <div className='productlist-container'>
+    <div className='outlet-ctr'> 
+        <div className='fatllama-link-ctr'>
           <h1>More to come!</h1>
+          <div className='btn-ctr'> 
+        <a href='#'><button className='btn'> Get Started Renting</button></a>
+        </div>
       </div>
-      </>
+      <div className='fatllama-link-ctr'>
+          <h1>More to come!</h1>
+          <div className='btn-ctr'> 
+        <a href='https://fatllama.com/'><button className='btn'> Get Started Renting</button></a>
+        </div>
+      </div>
+    </div>
   )
 }
 
