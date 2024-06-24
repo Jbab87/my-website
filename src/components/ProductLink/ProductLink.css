@@ -1,6 +1,6 @@
 .outlet-ctr {
   border: solid white;
-  height: 2000px;
+  height: 1500px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -8,6 +8,34 @@
   
   
  
+}
+
+.content-ctr {
+  border: solid white;
+  border-bottom: solid white 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 100%;
+  color: white;
+}
+
+.content-ctr-txt {
+  border: solid white;
+  margin: 5%;
+}
+
+.fatllama-img-ctr {
+  height: 50%;
+  width: 40%;
+  margin: 5%;
+  box-shadow: 3px 3px 4px 2px rgb(255, 255, 255, 0.4);
+}
+
+.drone {
+  height: 100%;
+  width: 100%;
 }
 
 .fatllama-link-ctr{

@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import './Hero.css'
-import camera from '../../assets/PXL_20240524_133656753.PORTRAIT.ORIGINAL.jpg'
 
 function Hero() {
   const [] = useState(0)
-  const element = document.getElementsByClassName("footer-header");
+  const element = document.getElementById('link-btn');
 
   const scrollToLink = () => {
-    element[0].scrollIntoView({behavior: 'smooth'})
+    element?.scrollIntoView({behavior: 'smooth'})
   }
 
   return (
@@ -18,7 +17,7 @@ function Hero() {
         <h2 className='hero-subtitle'>Get what you need just for the moment, and not a bit more</h2>
         </div>
         <div className='btn-ctr'> 
-        <a><button onClick={scrollToLink} className='btn'> Get Started Renting</button></a>
+        <a><button onClick={scrollToLink} className='hero-btn'> Get Started Renting</button></a>
         </div>
       </div>
     
