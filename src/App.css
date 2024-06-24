@@ -2,7 +2,7 @@
   background-color: black;
   margin: 0 auto;
   text-align: center;
-  border: solid blue;
+  /* border: solid blue; */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
