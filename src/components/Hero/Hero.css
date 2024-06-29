@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   height: 500px;  
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   
 }
 
@@ -68,6 +68,39 @@
 }
 
 
+@media (max-width: 480px) {
 
+  .hero-container {
+    position: relative;
+    border: solid #2ccbbb 6px;
+    border-bottom: solid #2ccbbb 6px;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 500px;  
+    /* margin-bottom: 10px; */
+    
+  }
+
+  .hero-title-ctr {
+    position: relative;
+    border: solid white;
+    width: 400px;
+    padding: 10px;
+  }
+
+  .hero-title {
+    color: white;
+    font-size: 50px;
+  }
+
+
+
+
+}
 
 
