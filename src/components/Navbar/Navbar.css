@@ -63,6 +63,42 @@
   transition: color 0.3s;
 }
 
+@media (max-width: 1200px) {
+
+  .navbar-logo-container {
+    border: solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 80%;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+  }
+
+  .navbar-links {
+    border: solid white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    list-style-type: none;
+    color: white;
+  }
+
+  
+.list-item {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 8px;
+  transition: color 0.3s;
+}
+
+}
+
 @media (max-width: 768px) {
   
 
