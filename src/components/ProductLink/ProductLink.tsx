@@ -27,25 +27,25 @@ const rodeStyle = {
 
         <div className='content-ctr'>
             <div className='content-ctr-txt-1'> 
-            <h2>Save on Products below</h2>
+            <h2>Popular Products</h2>
             </div>
 
             <div className='cards-ctr'> 
                 <Card
                 backgroundImg={droneStyle}
                 title={"Drones"}
-                text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex nulla, consectetur vel suscipit ut, cursus vitae eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque dictum urna sodales quam iaculis, et luctus elit fringilla. Vestibulum condimentum venenatis felis, ut placerat neque hendrerit ac. Nullam scelerisque viverra enim id ornare. Mauris mattis accumsan porttitor. Pellentesque cursus tortor eget molestie scelerisque. Mauris aliquam ligula nec massa iaculis porttitor."}
+                text={"Discover high-performance drones with advanced features and stunning camera quality on Fatllama. Perfect for capturing breathtaking aerial footage."}
                 />
 
                 <Card
                 backgroundImg={goProStyle}
                 title={"Go Pro Action Cameras"}
-                text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex nulla, consectetur vel suscipit ut, cursus vitae eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque dictum urna sodales quam iaculis, et luctus elit fringilla. Vestibulum condimentum venenatis felis, ut placerat neque hendrerit ac. Nullam scelerisque viverra enim id ornare. Mauris mattis accumsan porttitor. Pellentesque cursus tortor eget molestie scelerisque. Mauris aliquam ligula nec massa iaculis porttitor."}
+                text={"Find rugged, waterproof GoPro action cameras on Fatllama. Capture every thrilling moment in high-quality 4K resolution."}
                 />
                 <Card
                 backgroundImg={rodeStyle}
-                title={"Go Pro Action Cameras"}
-                text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex nulla, consectetur vel suscipit ut, cursus vitae eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque dictum urna sodales quam iaculis, et luctus elit fringilla. Vestibulum condimentum venenatis felis, ut placerat neque hendrerit ac. Nullam scelerisque viverra enim id ornare. Mauris mattis accumsan porttitor. Pellentesque cursus tortor eget molestie scelerisque. Mauris aliquam ligula nec massa iaculis porttitor."}
+                title={"DSLRs and Accessories"}
+                text={"Explore top-quality DSLR cameras and essential accessories on Fatllama. Perfect for photographers of all levels."}
                 />
 
            </div>
@@ -56,7 +56,7 @@ const rodeStyle = {
            
       </div>
       <div className='fatllama-link-ctr'>
-          <h1>More to come!</h1>
+          <h2>Ready to start renting? Head to Fatllama now.</h2>
           <div className='btn-ctr'> 
             <a href='https://fatllama.com/'><button id='link-btn' className='hero-btn'> Get Started Renting</button></a>
         </div>
