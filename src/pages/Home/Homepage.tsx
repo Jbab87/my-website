@@ -1,4 +1,3 @@
-import ProductList from '../../components/ProductList/ProductList'
 import Hero from '../../components/Hero/Hero'
 import ProductLink from '../../components/ProductLink/ProductLink';
 

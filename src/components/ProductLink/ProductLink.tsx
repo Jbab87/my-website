@@ -24,6 +24,12 @@ const rodeStyle = {
 
   return (
     <div className='outlet-ctr'> 
+    <div className='desc-ctr'>
+      <div className='desc-site'><h2 >Fatllama</h2></div>
+      <div className='desc-txt-ctr'>
+        <p>Fatllama is a cool online marketplace where people can rent out their stuff to others or borrow things they need. Think of it like Airbnb, but for gadgets and gear. Whether you need a camera for a weekend trip, a drone for some fun aerial shots, or a power tool for a DIY project, they've got it. If you have items lying around that you don’t use often, you can list them on the site and make some extra cash by renting them out. The platform makes sure everything is safe and secure with user verification, secure payments, and insurance for rented items. It’s a great way to save money, make money, and help the environment by sharing resources.</p>
+      </div>
+    </div>
 
         <div className='content-ctr'>
             <div className='content-ctr-txt-1'> 
@@ -35,17 +41,20 @@ const rodeStyle = {
                 backgroundImg={droneStyle}
                 title={"Drones"}
                 text={"Discover high-performance drones with advanced features and stunning camera quality on Fatllama. Perfect for capturing breathtaking aerial footage."}
+                price={"10"}
                 />
 
                 <Card
                 backgroundImg={goProStyle}
                 title={"Go Pro Action Cameras"}
                 text={"Find rugged, waterproof GoPro action cameras on Fatllama. Capture every thrilling moment in high-quality 4K resolution."}
+                price={"2"}
                 />
                 <Card
                 backgroundImg={rodeStyle}
                 title={"DSLRs and Accessories"}
                 text={"Explore top-quality DSLR cameras and essential accessories on Fatllama. Perfect for photographers of all levels."}
+                price={"5"}
                 />
 
            </div>

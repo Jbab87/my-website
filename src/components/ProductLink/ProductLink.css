@@ -1,11 +1,36 @@
 .outlet-ctr {
   border: solid gold 10px;
-  height: 1700px;
+  height: 1800px;
   width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
+}
+
+.desc-ctr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  border: solid white;
+  height: 30%;
+  width: 100%;
+}
+
+.desc-site {
+  border: solid white;
+  color: white;
+  font-size: larger;
+}
+
+.desc-txt-ctr {
+  display: flex;
+  border: solid white;
+  width: 1000px;
+  height: 200px;
+  color: white;
 }
 
 .content-ctr {
@@ -84,6 +109,20 @@
     align-items: center;
   }
 
+  .desc-ctr {
+    height: 20%;
+  }
+
+  .desc-txt-ctr {
+    display: flex;
+    border: solid blue;
+    width: 80%;
+    height: 65%;
+    color: white;
+    padding: 4px;
+  }
+
+
   .content-ctr {
     border: solid white;
     border-bottom: solid white 10px;
@@ -119,13 +158,27 @@
 
   .outlet-ctr {
     border: solid gold 10px;
-    height: 3100px;
+    height: 3800px;
     width: 90%;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .desc-ctr {
+    height: 20%;
+  }
+
+  .desc-txt-ctr {
+    display: flex;
+    border: solid blue;
+    width: 80%;
+    height: 65%;
+    color: white;
+    padding: 4px;
+  }
+
+
 
   .content-ctr {
     border: solid white;
@@ -135,7 +188,7 @@
     align-items: center;
     justify-content: start;
     width: 100%;
-    height: 90%;
+    height: 70%;
     color: white;
   }
 
@@ -162,12 +215,24 @@
 
   .outlet-ctr {
     border: solid gold 10px;
-    height: 3100px;
+    height: 3800px;
     width: 90%;
-    padding-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .desc-ctr {
+    height: 15%;
+  }
+
+  .desc-txt-ctr {
+    display: flex;
+    border: solid blue;
+    width: 80%;
+    height: 70%;
+    color: white;
+    padding: 4px;
   }
 
   .content-ctr {
@@ -178,7 +243,7 @@
     align-items: center;
     justify-content: start;
     width: 100%;
-    height: 90%;
+    height: 80%;
     color: white;
   }
 
