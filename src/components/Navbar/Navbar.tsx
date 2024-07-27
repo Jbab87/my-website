@@ -11,11 +11,6 @@ function Navbar() {
         <div className='navbar-logo-container'> 
         <h2><Link className='navbar-logo' to={'/#'}>Rent4Cheap</Link></h2>
         </div>
-        <ul className='navbar-links'>
-          <li><Link className='list-item' to={'/#'}>Products</Link></li>
-          <li><Link className='list-item' to={'/about'}>Blog</Link></li>
-          <li><Link className='list-item' to={'/about'}>About</Link></li>
-        </ul>
         </div>
       </nav> 
   )

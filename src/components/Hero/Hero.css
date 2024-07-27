@@ -1,6 +1,6 @@
 .hero-container {
   position: relative;
-  border-bottom: solid #2ccbbb 6px;
+  /* border-bottom: solid #2ccbbb 6px; */
   display: flex;
   flex-direction: column;
   background-position: center;
@@ -32,7 +32,7 @@
 
 .hero-title-ctr {
   position: relative;
-  border: solid white;
+  /* border: solid white; */
   width: 900px;
   padding: 10px;
 }
@@ -70,8 +70,8 @@
 @media (max-width: 1200px) {
   .hero-container {
     position: relative;
-    border: solid #2ccbbb 6px;
-    border-bottom: solid #2ccbbb 6px;
+    /* border: solid #2ccbbb 6px; */
+    /* border-bottom: solid #2ccbbb 6px; */
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -86,7 +86,7 @@
 
   .hero-title-ctr {
     position: relative;
-    border: solid white;
+    /* border: solid white; */
     width: 80%;
     height: 50%;
     padding: 10px;
@@ -102,8 +102,8 @@
 @media (max-width: 768px) {
   .hero-container {
     position: relative;
-    border: solid #2ccbbb 6px;
-    border-bottom: solid #2ccbbb 6px;
+    /* border: solid #2ccbbb 6px; */
+    /* border-bottom: solid #2ccbbb 6px; */
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -118,7 +118,7 @@
 
   .hero-title-ctr {
     position: relative;
-    border: solid white;
+    /* border: solid white; */
     width: 80%;
     height: 65%;
     padding: 10px;
@@ -136,8 +136,8 @@
 
   .hero-container {
     position: relative;
-    border: solid #2ccbbb 6px;
-    border-bottom: solid #2ccbbb 6px;
+    /* border: solid #2ccbbb 6px; */
+    /* border-bottom: solid #2ccbbb 6px; */
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -152,7 +152,7 @@
 
   .hero-title-ctr {
     position: relative;
-    border: solid white;
+    /* border: solid white; */
     width: 400px;
     padding: 10px;
   }

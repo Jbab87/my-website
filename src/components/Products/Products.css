@@ -80,7 +80,7 @@
 
   .desc-txt-ctr {
     display: flex;
-    border: solid blue;
+    /* border: solid blue; */
     width: 80%;
     height: 65%;
     color: white;
