@@ -1,5 +1,5 @@
 import Hero from '../../components/Hero/Hero'
-import ProductLink from '../../components/ProductLink/ProductLink';
+import ProductLink from '../../components/Products/Products';
 
 function Homepage() {
 

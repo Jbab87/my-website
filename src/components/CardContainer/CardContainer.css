@@ -1,38 +1,3 @@
-.outlet-ctr {
-  border: solid gold 10px;
-  height: 1800px;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-}
-
-.desc-ctr {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: auto;
-  border: solid white;
-  height: 30%;
-  width: 100%;
-}
-
-.desc-site {
-  border: solid white;
-  color: white;
-  font-size: larger;
-}
-
-.desc-txt-ctr {
-  display: flex;
-  border: solid white;
-  width: 1000px;
-  height: 200px;
-  color: white;
-}
-
 .content-ctr {
   border: solid white;
   border-bottom: solid white 10px;
@@ -65,25 +30,10 @@
 }
 
 
-.fatllama-link-ctr{
-  border: solid blue;
-  border-bottom: solid white 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 20%;
-  color: white;
- 
-}
 
 /*Sliding width from 0 - The maximum width at which these properties are in place for*/
 @media (max-width : 1750px) {
 
-  .outlet-ctr {
-    width: 90%;
-  }
 
 .cards-ctr {
   display: flex;
@@ -98,30 +48,6 @@
 }
 
 @media (max-width: 1200px) {
-
-  .outlet-ctr {
-    border: solid gold 10px;
-    height: 3100px;
-    width: 90%;
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .desc-ctr {
-    height: 20%;
-  }
-
-  .desc-txt-ctr {
-    display: flex;
-    border: solid blue;
-    width: 80%;
-    height: 65%;
-    color: white;
-    padding: 4px;
-  }
-
 
   .content-ctr {
     border: solid white;
@@ -155,28 +81,6 @@
 
 
 @media (max-width : 768px) {
-
-  .outlet-ctr {
-    border: solid gold 10px;
-    height: 3800px;
-    width: 90%;
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .desc-ctr {
-    height: 20%;
-  }
-
-  .desc-txt-ctr {
-    display: flex;
-    border: solid blue;
-    width: 80%;
-    height: 65%;
-    color: white;
-    padding: 4px;
-  }
 
 
 
@@ -212,29 +116,6 @@
 }
 
 @media (max-width: 480px) {
-
-  .outlet-ctr {
-    border: solid gold 10px;
-    height: 3800px;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .desc-ctr {
-    height: 15%;
-  }
-
-  .desc-txt-ctr {
-    display: flex;
-    border: solid blue;
-    width: 80%;
-    height: 70%;
-    color: white;
-    padding: 4px;
-  }
-
   .content-ctr {
     border: solid white;
     border-bottom: solid white 10px;
@@ -262,17 +143,6 @@
     width: 100%;
     height:2500px;
   }
-  .fatllama-link-ctr{
-    border: solid blue;
-    border-bottom: solid white 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 10%;
-    color: white;
-   
-  }
+
 
 }
