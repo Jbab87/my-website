@@ -20,12 +20,6 @@ const rodeStyle = {
 }
 
   return (
-
-        <div className='content-ctr'>
-            <div className='content-ctr-txt-1'> 
-            <h2>Popular Products</h2>
-            </div>
-
             <div className='cards-ctr'> 
                 <Card
                 backgroundImg={droneStyle}
@@ -46,9 +40,7 @@ const rodeStyle = {
                 text={"Explore top-quality DSLR cameras and essential accessories on Fatllama. Perfect for photographers of all levels."}
                 price={"5"}
                 />
-
            </div>
-      </div>
   )
 }
 

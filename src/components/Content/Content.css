@@ -1,0 +1,101 @@
+.content-ctr {
+  /* border: solid white; */
+  border-bottom: solid #232323 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 80%;
+  color: white;
+}
+
+.content-ctr-txt-1 {
+  /* border: solid white; */
+  font-size: large;
+}
+
+.content-ctr-txt-2 {
+  border: solid white;
+  font-size: large;
+}
+
+
+
+
+
+/*Sliding width from 0 - The maximum width at which these properties are in place for*/
+@media (max-width : 1750px) {
+
+  
+}
+
+@media (max-width: 1200px) {
+
+  .content-ctr {
+    /* border: solid white; */
+    border-bottom: solid #232323 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 2500px;
+    color: white;
+  }
+
+  .content-ctr-txt-1 {
+    /* border: solid white; */
+    font-size: large;
+    margin-bottom: 20px;
+  }
+
+
+}
+
+
+@media (max-width : 768px) {
+
+
+
+  .content-ctr {
+    /* border: solid white; */
+    border-bottom: solid #232323 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 2600px;
+    color: white;
+  }
+
+  .content-ctr-txt-1 {
+    /* border: solid white; */
+    font-size: large;
+    margin-bottom: 20px;
+  }
+
+  
+}
+
+@media (max-width: 480px) {
+  .content-ctr {
+    /* border: solid white; */
+    border-bottom: solid #232323 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 80%;
+    color: white;
+  }
+
+  .content-ctr-txt-1 {
+    /* border: solid white; */
+    font-size: large;
+    margin-bottom: 50px;
+  }
+
+}

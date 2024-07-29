@@ -10,7 +10,7 @@ function Card(props: any) {
             <div className='card-txt-ctr'>
               <h2 className='card-title'>{props.title}</h2>
               <p className='card-txt'>{props.text}</p>
-              <p className='card-price'>Grab for as little as £{props.price} per day!</p>
+              <p className='card-price'>Grab for as little as <em id='card-price'>£{props.price}</em> per day!</p>
             </div>
            </div>
   )

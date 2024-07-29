@@ -1,12 +1,12 @@
 .footer {
-height: 360px;
+height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: black;
   padding: 10px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-top: solid #2ccbbb 6px;
+  border-top: solid #232323 10px;
 
 
   

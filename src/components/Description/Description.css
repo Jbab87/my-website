@@ -3,20 +3,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  border-bottom: solid #232323 10px;
   margin: auto;
-  border: solid white;
   height: 600px;
   width: 100%;
 }
 
 .desc-site {
-  border: solid white;
+  /* border: solid white; */
   color: white;
   font-size: larger;
   margin-top: 20px;
 }
 
-.desc-txt-ctr {
+.desc-ftr-ctr {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +27,7 @@
 }
 
 .desc-ftr {
-  border: solid white;
+  border: solid #232323 5px;
   border-radius: 4px;
   height: 200px;
   width: 300px;
@@ -51,10 +51,10 @@
     width: 95%;
   }
 
-  .desc-txt-ctr {
+  .desc-ftr-ctr {
     display: flex;
     width: 80%;
-    height: 75%;
+    height: 300px;
     color: white;
     padding: 4px;
   }
@@ -75,7 +75,8 @@
 
 
   .desc-ctr {
-    height: 1000px;
+    /* border: solid white; */
+    height: 800px;
   }
 
   .desc-site {
@@ -83,10 +84,11 @@
     width: 95%;
   }
 
-  .desc-txt-ctr {
+  .desc-ftr-ctr {
+    /* border: solid white; */
     display: flex;
-    width: 80%;
-    height: 75%;
+    width: 95%;
+    height: 330px;
     color: white;
     padding: 4px;
   }
@@ -94,7 +96,7 @@
   .desc-ftr {
     border-radius: 4px;
     height: 90%;
-    width: 40%;
+    width: 35%;
     padding: 5px;
     margin: 5px;
   }
@@ -106,7 +108,7 @@
 @media (max-width: 768px) {
 
   .desc-ctr {
-    height: 1000px;
+    height: 1400px;
   }
 
   .desc-site {
@@ -114,7 +116,7 @@
     width: 95%;
   }
 
-  .desc-txt-ctr {
+  .desc-ftr-ctr {
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -124,9 +126,9 @@
   }
 
   .desc-ftr {
-    border: solid white;
+    border: solid #232323 5px;
     border-radius: 4px;
-    height: 300px;
+    height: 200px;
     width: 300px;
     padding: 5px;
     margin: 5px;
@@ -137,10 +139,10 @@
 
 
   .desc-ctr {
-    height: 1000px;
+    height: 2000px;
   }
 
-  .desc-txt-ctr {
+  .desc-ftr-ctr {
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -150,9 +152,9 @@
   }
 
   .desc-ftr {
-    border: solid white;
+    border: solid #232323 5px;
     border-radius: 4px;
-    height: 300px;
+    height: 200px;
     width: 300px;
     padding: 5px;
     margin: 5px;
