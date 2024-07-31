@@ -26,14 +26,7 @@
   color: white;
 }
 
-.desc-ftr {
-  border: solid #232323 5px;
-  border-radius: 4px;
-  height: 200px;
-  width: 300px;
-  padding: 5px;
-  margin: 5px;
-}
+
 
 .desc-txt {
   font-size: large;
@@ -58,15 +51,6 @@
     color: white;
     padding: 4px;
   }
-
-  .desc-ftr {
-    border-radius: 4px;
-    height: 90%;
-    width: 40%;
-    padding: 5px;
-    margin: 5px;
-  }
-
 
 }
 
@@ -93,16 +77,6 @@
     padding: 4px;
   }
 
-  .desc-ftr {
-    border-radius: 4px;
-    height: 90%;
-    width: 35%;
-    padding: 5px;
-    margin: 5px;
-  }
-
-
-
 }
 
 @media (max-width: 768px) {
@@ -125,14 +99,6 @@
     padding: 4px;
   }
 
-  .desc-ftr {
-    border: solid #232323 5px;
-    border-radius: 4px;
-    height: 200px;
-    width: 300px;
-    padding: 5px;
-    margin: 5px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -150,20 +116,6 @@
     color: white;
     padding: 4px;
   }
-
-  .desc-ftr {
-    border: solid #232323 5px;
-    border-radius: 4px;
-    height: 200px;
-    width: 300px;
-    padding: 5px;
-    margin: 5px;
-  }
-
-
- 
-  
-
 
 }
 

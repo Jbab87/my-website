@@ -1,8 +1,7 @@
 import './Outlet.css'
 import Flredirect from '../Flredirect/Flredirect'
-import Description from '../Description/Description'
-import CardContainer from '../CardContainer/CardContainer'
 import Content from '../Content/Content'
+import Description from '../Description/Description'
 
 function Outlet() {
 
