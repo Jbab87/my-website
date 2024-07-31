@@ -48,6 +48,10 @@
 }
 
 .btn-ctr {
+  /* border:solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 10px;
   z-index: 1;
 }
@@ -59,7 +63,9 @@
   color: white;
   font-size: x-large;
   font-weight: bold;
-  height: 60px;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
 }
 
 .hero-btn:hover {

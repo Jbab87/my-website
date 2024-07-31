@@ -9,6 +9,7 @@ function Hero() {
   }
 
   return (
+    
       <div className='hero-container'>
         {/* <img className='image' src={camera}></img> */}
         <div className='hero-title-ctr'> 

@@ -10,7 +10,7 @@
   width: 400px;
   margin: 0px 10px;
   border-radius: 100px;
-
+  color: white;
 }
 
 .fatllama-img-ctr {
@@ -66,6 +66,10 @@
   font-size: x-large;
 }
 
+
+#card-dis {
+  font-size: small;
+}
 
 
 

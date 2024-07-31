@@ -25,8 +25,8 @@ function Description() {
       </div>
 
       <div className='desc-ftr'> 
-      <h2>Reduce Wastage</h2>
-      <p>Help the environment by sharing resources.</p>
+      <h2>Multiple Locations</h2>
+    <p>Active in numerous cities, making it easy to rent or lend items wherever you are.</p>
       </div>
  
     </div>
