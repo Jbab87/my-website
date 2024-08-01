@@ -91,10 +91,32 @@
 
 @media  (max-width: 1600px) {
  
-
   .card-ctr {
+    width: 350px;
+    height: 760px;
+  }
+
+  .fatllama-img-ctr {
+    height: 40%;
+    width: 100%;
+   
+  }
+
+  .card-ctr:hover {
+    /* display: flex;
+    flex-direction: column;
+    border: solid white;
     height: 80%;
+    width: 500px; */
     width: 360px;
+    height: 810px;
+    border: solid black;
+    transition: border  0.5s;
+    transition: width 0.2s;
+    transition: height 0.2s;
+
+    
+  
   }
   
 }

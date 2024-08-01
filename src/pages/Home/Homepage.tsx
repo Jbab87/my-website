@@ -1,12 +1,12 @@
 import Hero from '../../components/Hero/Hero'
-import ProductLink from '../../components/Outlet/Outlet';
+import Outlet from '../../components/Outlet/Outlet';
 
 function Homepage() {
 
   return (
     <>
     <Hero/>
-    <ProductLink/>  
+    <Outlet/>
     </>
   )
 }

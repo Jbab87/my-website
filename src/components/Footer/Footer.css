@@ -1,18 +1,124 @@
-.footer {
-height: 300px;
+.ftr {
+height: 250px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: black;
-  padding: 10px 20px;
+  /* border: solid white; */
+  padding: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-top: solid #232323 10px;
+  color: white;
+
+}
+
+.ftr-hdr-ctr {
+  width: 300px;  
+}
+
+.ftr-hdr {
+  font-size: xx-large;
+}
 
 
+.ftr-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid white; */
+  width: 800px;
+  height: 150px;
+}
+
+.ftr-cnt-list {
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: solid white; */
+  list-style-type: none;
+  width: 85%;
+  height: 100px;
+  margin-left: 50px;
+
+}
+
+.ftr-cnt-list li {
+  margin: 0px 50px;
+  display: flex;
+  align-self: center;
+  justify-items: center;
+  text-decoration: underline;
+
+  /* border: solid white; */
+
+}
+
+
+@media (max-width: 768px) {
+  
+  .ftr-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid white; */
+    width: 450px;
+    height: 150px;
+  }
+  
+  .ftr-cnt-list {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: solid white; */
+    list-style-type: none;
+    width: 85%;
+    height: 100px;
+    margin-right: 50px;
+  
+  }
+  
+  .ftr-cnt-list li {
+    margin: 0px 30px;
+    display: flex;
+    align-self: center;
+    justify-items: center;
+    /* border: solid white; */
+  
+  }
+}
+
+@media (max-width: 480px) {
+  
+
+  .ftr-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid white; */
+    width: 400px;
+    height: 150px;
+  }
+  
+  .ftr-cnt-list {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: solid white; */
+    list-style-type: none;
+    width: 85%;
+    height: 100px;
+    margin-right: 50px;
+  
+  }
+  
+  .ftr-cnt-list li {
+    margin: 0px 30px;
+    display: flex;
+    align-self: center;
+    justify-items: center;
+    /* border: solid white; */
+  
+  }
   
 }
-
-.footer-header {
- color: white;
-}
-

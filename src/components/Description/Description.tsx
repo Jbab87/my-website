@@ -4,7 +4,7 @@ import './Description.css'
 function Description() {
   return (
     <div className='desc-ctr'>
-       <div className='desc-site'><h2 >Fatllama - <em>"The Airbnb of Things"</em></h2>
+       <div className='desc-site'><h2 >Fatllama.com - <em>"The Airbnb of Things"</em></h2>
     <p>Fatllama is a cool online marketplace where people can rent out their stuff to others or borrow things they need. Think Airbnb, but for gadgets and gear.</p>
     </div>
     <div className='desc-ftr-ctr'>
@@ -29,7 +29,7 @@ function Description() {
 <Feature
           title="Multiple Locations"
           icon="map"
-          description="Active in numerous cities, making it easy to rent or lend items wherever you are."
+          description="Active in numerous cities in the United Kingdom, making it easy to rent or lend items wherever you are."
         />
 
       </div>
