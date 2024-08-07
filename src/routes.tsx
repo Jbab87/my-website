@@ -3,10 +3,11 @@ import App from './App'
 import Homepage from './pages/Home/Homepage';
 import About from './pages/About/About';
 import Privacy from './pages/Privacy/Privacy';
+import Terms from './pages/Terms/Terms';
 
 
   
-const router = createBrowserRouter([
+const routes = [
   {
     path: "/",
     element: <App/>,
@@ -22,14 +23,19 @@ const router = createBrowserRouter([
       {
         path: 'privacy',
         element: <Privacy/>
+      },
+      {
+        path: 'terms',
+        element: <Terms/>
       }
     ]
 
     }
   
-])
+]
 
-  
+ const router = createBrowserRouter(routes);
+
 
 export default router;
 

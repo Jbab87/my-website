@@ -9,9 +9,9 @@ function Footer() {
     
     <div className='ftr-cnt'>
       <ul className='ftr-cnt-list'>
-        <li>About</li>
-        <Link to={'/privacy'}> <li>Privacy</li></Link>
-        <li>Terms & Conditions</li>
+       <Link to={'about'}><li>About</li></Link>
+        <Link  to={'privacy'}> <li>Privacy</li></Link>
+        <Link to={'terms'}><li>Terms</li></Link>
       </ul>
     </div>
    </div>
