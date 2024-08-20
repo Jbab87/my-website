@@ -1,8 +1,9 @@
 .navbar {
-  /* border: solid white; */
+  /* border: solid pink 10px; */
   display: flex;
   top: 0;
   height: 80px;
+  /* width: 100%; */
   padding: 10px 10px;
   background-color: black;
   color: white;
@@ -108,6 +109,15 @@
   }
 
 
+  .navbar-links {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      display: none; /* Hide the links initially */
+  }
+}
+
+@media (max-width: 480px) {
   .navbar-links {
       flex-direction: column;
       align-items: center;

@@ -3,7 +3,7 @@ import './Card.css'
 function Card(props: any) {
 
   return (
-      <a href={props.url}> 
+      <a  className='crd-otr-ctr' href={props.url}> 
           <div className='card-ctr'>
             <div className='fatllama-img-ctr'>
               <div style={props.backgroundImg} className='fatllama-img'></div>
