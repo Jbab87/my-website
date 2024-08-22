@@ -86,14 +86,13 @@
     align-items: center;
     justify-content: start;
     width: 95%;
-    height: 45%;
+    height: 1570px;
     color: white;
   }
 
   .content-ctr-txt-1 {
     /* border: solid white; */
     font-size: large;
-    margin-bottom: 40px;
   }
 
 }
