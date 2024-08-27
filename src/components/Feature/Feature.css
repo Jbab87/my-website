@@ -26,6 +26,16 @@
     margin: 5px;
   }
 
+  .desc-title {
+    /* border: solid white; */
+    height: 80px;
+  }
+
+  .desc-icon-ctr {
+    /* border: solid white; */
+    padding: 5px;
+  }
+
 
 }
 
@@ -38,7 +48,16 @@
     margin: 5px;
   }
 
+  .desc-title {
+    /* border: solid white; */
+    height: 80px;
+  }
 
+  .desc-icon-ctr {
+    /* border: solid white; */
+    padding: 5px;
+  }
+  
 
 }
 
@@ -50,6 +69,11 @@
     width: 300px;
     padding: 5px;
     margin: 5px;
+  }
+
+  .desc-title {
+    /* border: solid white; */
+    height: fit-content;
   }
 }
 
