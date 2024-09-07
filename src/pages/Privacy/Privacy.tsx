@@ -1,4 +1,5 @@
 import './Privacy.css'
+import {websiteInfo} from "../../../constants.js"
 
 function Privacy() {
 
@@ -45,7 +46,7 @@ We may update this privacy policy from time to time to reflect any changes in ou
 <br></br>
 
 <h2>Contact Us</h2>
-If you have any questions or concerns about our privacy policy, please contact us at [Your Contact Information].
+If you have any questions or concerns about our privacy policy, please contact us at {websiteInfo.email}.
 </p> </div>
       
      
