@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
 import './Footer.css'
+import { websiteInfo } from '../../../constants'
 
 function Footer() {
 
   return (
    <div className='ftr'>
-    <div className='ftr-hdr-ctr'><h2 className='ftr-hdr'>Rent4Cheap</h2> </div>
+    <div className='ftr-hdr-ctr'><h2 className='ftr-hdr'>{websiteInfo.name}</h2> </div>
     
     <div className='ftr-cnt'>
       <ul className='ftr-cnt-list'>

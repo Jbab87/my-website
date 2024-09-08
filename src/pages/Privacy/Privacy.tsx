@@ -1,6 +1,5 @@
 import './Privacy.css'
-import {websiteInfo} from "../../../constants.js"
-
+import {websiteInfo} from '../../../constants'
 function Privacy() {
 
 
