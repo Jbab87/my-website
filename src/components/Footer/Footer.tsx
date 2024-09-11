@@ -3,7 +3,6 @@ import './Footer.css'
 import { websiteInfo } from '../../../constants'
 
 function Footer() {
-
   return (
    <div className='ftr'>
     <div className='ftr-hdr-ctr'><h2 className='ftr-hdr'>{websiteInfo.name}</h2> </div>
